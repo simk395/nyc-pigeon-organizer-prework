@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   pigeon = {}
   bird_names = data[:gender].values.flatten
   bird_names.each do |name|
-    pigeon[:name] = {}
+    pigeon[name] = {}
   end
   binding.pry
 end
