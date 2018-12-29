@@ -9,7 +9,9 @@ def nyc_pigeon_organizer(data)
   end
   data.each do |info, group_data|
     group_data.each do |stat, name|
-      binding.pry
+      name.each do |bird|
+        binding.pry
+      end
     end
   end
 end
