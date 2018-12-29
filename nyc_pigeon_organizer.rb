@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
     pigeon[name] = {}
   end
   data.each do |info, title|
-    title.each do |namem ask|
+    title.each do |name, ask|
       binding.pry
     end
   end
