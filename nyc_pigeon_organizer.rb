@@ -2,10 +2,12 @@ require "pry"
 
 def nyc_pigeon_organizer(data)
   # write your code here!
-  pigeons = {}
-  data.each do |info, name|
-    binding.pry
+  pigeon = {}
+  bird_names = data[:gender].values.flatten
+  bird_names.each do |name|
+    pigeon[:name] = {}
   end
+  binding.pry
 end
 
 pigeon_data = {
