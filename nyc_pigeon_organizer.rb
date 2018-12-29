@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
   data.each do |info, group_data|
     group_data.each do |stat, name|
       name.each do |bird|
+
         binding.pry
       end
     end
